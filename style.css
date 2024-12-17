@@ -103,5 +103,18 @@ body.open .sidebar-logo{
     border-left: 3px solid #f9f9f9;
 }
 
-.
+.sidebar-menu > button.has-border{
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    margin-bottom: 1rem;
+}
 
+.sidebar-menu > button > i{
+    font-size: 25px;
+    color: #f9f9f9;
+    transition: all 0.4s;
+}
+
+.sidebar-menu > button:hover > i, .sidebar-menu > button:hover > span{
+    color: #bdbdbd;
+}
