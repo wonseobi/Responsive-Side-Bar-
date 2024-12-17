@@ -118,3 +118,14 @@ body.open .sidebar-logo{
 .sidebar-menu > button:hover > i, .sidebar-menu > button:hover > span{
     color: #bdbdbd;
 }
+
+.sidebar-menu > button > span{
+    color: #f9f9f9;
+    opacity: 0;
+    transition: all 0.4s;
+}
+
+body.open .sidebar-menu > button > span{
+    opacity: 1;
+    transition: all 0.4s;
+}
